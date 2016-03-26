@@ -8,11 +8,11 @@
 
     <<?php
 
-// This function below displays "said" text
+// This function below displays "said" text.
 
       echo "hello Student";
 
      ?>
-    
+
   </body>
 </html>
