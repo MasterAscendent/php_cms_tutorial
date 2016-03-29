@@ -3,23 +3,12 @@
 
 <?php UpdateTable(); ?>
 
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-  </head>
-  <body>
+<?php include "includes/header.php"; ?>
 
     <div class="container">
 
       <div class="col-sm-6">
-        <h1>Update</h1>
+        <h1 class="text-center">Update</h1>
         <form action="login_update.php" method="post">
 
           <div class="form-group">
@@ -47,6 +36,5 @@
 
         </form>
       </div>
-    </div>
-  </body>
-</html>
+
+<?php include "includes/footer.php" ?>
